@@ -29,7 +29,7 @@ body = JSON.stringify(body);
 if (url.indexOf(path2) != -1){
 body = JSON.parse(body);
 body.data.svipUserProInfo.placeholderVip = true;
-body.data.activeType = 1;
+body.data.svipUserProInfo.activeType = 1;
 body.data.isActive = true;
 body = JSON.stringify(body);
 }
