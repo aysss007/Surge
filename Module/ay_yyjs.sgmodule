@@ -4,7 +4,7 @@
 
 [Script]
 # > 用药助手解锁专业版 (By Arthury)
-yyzs.js = requires-body=1,script-path=https://raw.githubusercontent.com/aysss007/Surge/master/Script/ay_yyjs.js,type=http-response,pattern=^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=))
+ay_yyzs.js = requires-body=1,script-path=https://raw.githubusercontent.com/aysss007/Surge/master/Script/ay_yyjs.js,type=http-response,pattern=^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=))
 
 
 
