@@ -4,10 +4,7 @@
 
 [Script]
 # > SleepCycle解锁专业版 (By Arthury)
-ay_sleepcycle.js = requires-body=1,script-path=https://raw.githubusercontent.com/aysss007/Surge/master/Script/ay_sleepcycle.js,type=http-response,pattern=^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=))
-
-
-https://ch.sleepcycle.com/api/v1/subscription/get-by-packages
+ay_sleepcycle.js = requires-body=1,script-path=https://raw.githubusercontent.com/aysss007/Surge/master/Script/ay_sleepcycle.js,type=http-response,pattern=^https:\/\/ch\.sleepcycle\.com\/api\/v1\/subscription\/get
 
 
 [MITM]
