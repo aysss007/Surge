@@ -42,6 +42,14 @@ URL-REGEX,^http(s)://api.bjxkhc.com/index.php/app/ios/ads/index,REJECT-TINYGIF
 ^https?://www.zhihu.com/question/ header-del User-Agent
 ^https?://www.zhihu.com/question/ header-add User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
 
+
+[Header Rewrite]
+# > 新浪金融强制电脑版
+^https?://finance.sina.cn/tech/ header-del User-Agent
+^https?://finance.sina.cn/tech/ header-add User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.120 Safari/537.36
+
+
+
 [Script]
 # Chavy box (多账号Cookie保存切换)
 # 访问: http://boxjs.com管理
