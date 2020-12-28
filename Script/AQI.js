@@ -5,7 +5,6 @@ const aqicnToken = 'dedb091ab0ed84b851796f6cb597207836f71f2f'
 
 // STEP 2: 参考下方配置片段，在代理工具的配置文件中添加对应的配置。注意：script-path 后应该替换为添加 apicnToken 值后的脚本路径
 
-
 const AirQualityStandard = {
 	CN: 'HJ6332012.1',
 	US: 'EPA_NowCast.1'
