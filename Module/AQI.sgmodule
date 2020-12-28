@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-AQI-US = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?include=, requires-body=true, script-path=https://raw.githubusercontent.com/aysss007/Surge/master/Script/AQI.js
+AQI-US = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=https://raw.githubusercontent.com/aysss007/Surge/master/Script/AQI.js
 
 [MITM]
 hostname = weather-data.apple.com
