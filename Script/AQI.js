@@ -76,7 +76,7 @@ function constructAirQuailityNode(aqicnData) {
 	airQualityNode.pollutants.SO2.amount = aqicnData.iaqi.so2.v
 	airQualityNode.pollutants.NO2.amount = aqicnData.iaqi.no2.v
 	airQualityNode.pollutants["PM2.5"].amount = aqicnData.iaqi.pm25.v
-	airQualityNode.pollutants.OZONE.amount = aqicnData.iaqi.o3.v
+	//airQualityNode.pollutants.OZONE.amount = aqicnData.iaqi.o3.v
 	airQualityNode.pollutants.PM10.amount = aqicnData.iaqi.pm10.v
 	airQualityNode.metadata.latitude = aqicnData.city.geo[0]
 	airQualityNode.metadata.longitude = aqicnData.city.geo[1]
