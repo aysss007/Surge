@@ -278,8 +278,6 @@ musicalm.js = requires-body=1,max-size=0,script-path=https://raw.githubuserconte
 lingokids.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/lingokids.vip.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api\.lingokids\.com\/v1\/renovate_session$
 # > Bright
 verify_receipt.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/verify_receipt.js,script-update-interval=0,type=http-response,pattern=^https:\/\/engbright\.com\/app-portal\/apple\/receipt$
-# > #mojo&noto
-revenuecat.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/revenuecat.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$)
 # > mimo
 mimo.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/mimo.vip.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api\.getmimo\.com\/v1\/subscriptions$
 # > boom
