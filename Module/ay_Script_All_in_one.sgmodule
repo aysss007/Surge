@@ -100,8 +100,6 @@ myxj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.c
 xunjie.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js,type=http-response,pattern=^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/*
 # > Fantastical 内购解锁 (By @sunshy)
 fantastical.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js,type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
-# lake
-lake.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/lake.js,type=http-response,pattern=^https:\/\/api\.lakecoloring\.com\/v1\/receipt
 # 每日英语阅读/每日外刊 解锁课程  (By chamberlen)
 mryy.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mryy.js,type=http-response,pattern=^https:\/\/dict\.eudic\.net\/jingting\/GetThisChapterTaskStatus?
 # > Pear雪梨 unlock vip
