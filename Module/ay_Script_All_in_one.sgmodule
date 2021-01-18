@@ -80,30 +80,14 @@ CamScanner.js = requires-body=1,script-path=https://raw.githubusercontent.com/No
 VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,type=http-response,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 # PicsArt美易 pro
 PicsArt.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js,type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json
-# Splice 视频编辑器 pro
-Splice.js = requires-body=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Splice.js,type=http-response,pattern=^https:\/\/splice\.oracle\.\w+\.com\/devices\/me
 # 智能证件照相机 (by @superuv)
 znzj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/znzj.js,type=http-response,pattern=^https:\/\/app\.xunjiepdf\.com\/api\/v4\/virtualactregister
-# 轻颜相机 & ulike & 蒸汽波相机(vaporcam)三合一 解锁VIP(By @s y & Alex0510)
-qyxj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js,type=http-response,pattern=^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info
-# > 有道云笔记 (By Alex0510)
-ydybj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js,type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self)
-# > 石墨文档 (By Alex0510)
-shimo.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/shimo.js,type=http-response,pattern=https://api.shimo.im/users/
-# 手机硬件管家 (By Alex0510)
-sjyjgj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sjyjgj.js,type=http-response,pattern=http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser)
 # 西窗烛 （By 黑黑酱）
 xcz.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xcz.js,type=http-response,pattern=^https:\/\/avoscloud\.com\/1\.1\/users\/
-# > 美颜相机一次性解锁内购（by黑黑酱）
-myxj.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js,type=http-response,pattern=^https:\/\/api\.meiyan\.com\/iap\/verify\.json
-# 迅捷应用6合1 （by LTribe）
-xunjie.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xunjie.js,type=http-response,pattern=^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/*
 # > Fantastical 内购解锁 (By @sunshy)
 fantastical.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js,type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
 # 每日英语阅读/每日外刊 解锁课程  (By chamberlen)
 mryy.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mryy.js,type=http-response,pattern=^https:\/\/dict\.eudic\.net\/jingting\/GetThisChapterTaskStatus?
-# > Pear雪梨 unlock vip
-pear.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js,type=http-response,pattern=^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail)
 # > Peak 解锁Pro
 peak.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/peak.js,type=http-response,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?
 # > Faded
