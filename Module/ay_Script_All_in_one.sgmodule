@@ -101,7 +101,7 @@ elevate.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubuserco
 # > busuu
 busuu.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/busuu.vip.js,script-update-interval=0,type=http-response,pattern=^https:\/\/api\.busuu\.com\/users\/me
 # Pillow (By @CheeryTodo)
-pillow.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pillow.js,type=http-response,pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts)
+pillow.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/aysss007/Surge/master/Script/pillow.js,type=http-response,pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts)
 # > Buyhack
 verify_receipt.js = requires-body=1,max-size=262144,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/verify_receipt.js,script-update-interval=0,type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
 
